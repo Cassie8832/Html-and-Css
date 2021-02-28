@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The Peets Family</title>
+		<link rel="stylesheet" href="Wcss.css">
+                <script src="Wjs.js"></script>
+	</head>
+	<body>
+	
+		<!-- NAV -->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#video"><li>VIDEO</li></a>
+					<a href="#contact"><li>SUBSCRIBE</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- End NAV -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Peets Family Fun</span>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+				<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="Family.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="Santa.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="Yankee.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="Waterfall.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Family_wide.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Santa_wide.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="Yankee_wide.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="Waterfall_wide.JPG" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="The Peets are living their best life right now."></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="Family.JPG" onclick="currentSlide(1)" alt="Hugs.jpg">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Santa.JPG" onclick="currentSlide(2)" alt="Hugs.jpg">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Yankee.png" onclick="currentSlide(3)" alt="Hugs.jpg">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Waterfall.JPG" onclick="currentSlide(4)" alt="Hugs.jpg">
+    </div>
+  </div>
+</div>
+</section>				
+					
+					
+						
+	
+		
+		<!-- VIDEO -->
+		<section>
+			<div id="video">
+			<h1>Video</h1>
+				<div class="container">
+					<div style="text-align: center;">
+
+						<embed src="GoodTimes.mp4" autostart="false" height="600" width="600" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END VIDEO -->
+		
+		<!-- RSVP -->
+		<section>
+			<div id="contact">
+				<div class="container">
+					<div class="subscribe">
+						<div class="heading-padding">
+						<h1>Subscribe</h1>
+							<div class="subscribe">
+								<h2><span>Instead of Keeping up with the Kardashians, keep up with the Peets!</span>
+									<br />Subscribe for updates!
+								</h2>
+								<p>
+									Please provide us with your basic contact information.
+								</p>
+								<div>
+									<form action="" method="post">
+										<input class="rsvp" type="text" value="First Name">
+										<input class="rsvp" type="text" value="Last Name">
+										<input class="rsvp" type="text" value="Email Address">
+										<input class="rsvp" type="text" value="Phone Number">
+										<div class="form-spacer">
+											<label class="terms">Terms and Conditions</label>
+										</div>
+										<div>
+											<input type="submit" value="Submit">
+										</div>
+								</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP -->
+		
+		<!--FOOTER -->
+		<div class="footer">
+			www.Peets.com &nbsp;|&nbsp; &copy; 2021
+		</div>
+		<!-- END FOOTER -->
+		
+	</body>
