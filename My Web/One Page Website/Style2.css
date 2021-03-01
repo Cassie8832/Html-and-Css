@@ -10,7 +10,7 @@ h1 {
     background-size: 50%;
     border: 7px plum;
     border-radius: 8px;
-    background: pink;
+    background: purple;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -19,7 +19,7 @@ h1::after {
     content: "";
     height: 2px;
     width: 150px;
-    background: pink;
+    background: purple;
     margin: 5px auto 40px;
     box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
 }
@@ -82,7 +82,7 @@ nav {
 
 .menu li {
     color: #000;
-    background-color: orchid;
+    background-color: purple;
     display: inline-table;
     margin: 0% auto;
     position: relative;
@@ -110,7 +110,7 @@ nav {
     background: url(Love.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     background-size: cover;
-    background-color: pink;
+    background-color: purple;
     text-shadow: 5px 1px 10px #000;
     font-weight: 600;
 
@@ -183,7 +183,7 @@ nav {
     font-size: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
-    border: 1px groove coral;
+    border: 1px pink;
     padding: 5px;
 }
 
@@ -196,7 +196,7 @@ p {
 Gallery
 ====*/
 #Gallery {
-    background-color: pink;
+    background-color: purple;
 }
 .row > .column {
     padding: 0 8px;
@@ -225,13 +225,13 @@ Gallery
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: purple;
+    background-color: floralwhite;
   }
   
   /* Modal Content */
   .modal-content {
     position: relative;
-    background-color: #00ffff;
+    background-color: #FFBCD9;
     margin: auto;
     padding: 0;
     width: 90%;
@@ -240,13 +240,13 @@ Gallery
   
   /* The Close Button */
   .close {
-    color: white;
+    color: black;
     position: absolute;
     top: 10px;
     right: 25px;
     font-size: 35px;
     font-weight: bold;
-    background-color: #788fb8;
+    background-color: #b19cd9;
   }
   
   .close:hover,
@@ -270,7 +270,7 @@ Gallery
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -303,14 +303,17 @@ Gallery
   /* Caption text */
   .caption-container {
     text-align: center;
-    background-color: pink;
-    padding: 2px 16px;
-    color: white;
+    background-color: purple;
+    padding: 20px 40px;
+    color: black;
+    font-size: x-large
   }
   
   img.demo {
     opacity: 0.6;
     float: left;
+    width: 100%;
+    font-size: x-large;
     
   }
   
