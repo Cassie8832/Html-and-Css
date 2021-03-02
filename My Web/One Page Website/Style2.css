@@ -3,6 +3,10 @@ html {
     font-size: 65%;
 }
 
+body {
+  box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
     font-variant: small-caps;
@@ -270,7 +274,8 @@ Gallery
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: black;
+    color: BlueViolet;
+    background-color: pink;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -313,11 +318,7 @@ Gallery
     opacity: 0.6;
     float: left;
     width: 100%;
-<<<<<<< HEAD:My Web/One Page Website/Style2.css
-    font-size: x-large;
-=======
->>>>>>> d60d79602f14dacbe66880dc00ac7aed716e1162:My Web/al Image Gallery for Website/Style2.css
-    
+    font-size: x-large
   }
   
   .active,
