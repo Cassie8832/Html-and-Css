@@ -3,7 +3,7 @@
  
  Projects related to HTML and CSS
  
-Space Station Bootstrap
+Space Station 
  Project made for a space travel agency utilizing css for a navbar, contact, and gallery.
 
 
